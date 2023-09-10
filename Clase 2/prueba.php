@@ -26,7 +26,7 @@
     $total = $pan+$queso+$mortadela;
 
     echo $pan+$queso+$mortadela; //asi lo hago directo desde el print//
-    echo $total // asi lo imprimo desde la variable
+    echo $total; // asi lo imprimo desde la variable
 
 
 
