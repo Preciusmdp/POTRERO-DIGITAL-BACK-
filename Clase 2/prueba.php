@@ -19,6 +19,16 @@
     echo $Saludo;
     echo $saludoDePotreroDigital;
 
+    $pan = 700;
+    $queso = 380;
+    $mortadela = 420;
+
+    $total = $pan+$queso+$mortadela;
+
+    echo $pan+$queso+$mortadela; //asi lo hago directo desde el print//
+    echo $total // asi lo imprimo desde la variable
+
+
 
     ?>
 
