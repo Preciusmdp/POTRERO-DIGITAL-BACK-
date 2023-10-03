@@ -32,7 +32,7 @@
 
     while ($i2 > 0) {
         print " $i2 ";
-        $i2--;
+        $i2--;  
     }
 
     echo "<br>";
