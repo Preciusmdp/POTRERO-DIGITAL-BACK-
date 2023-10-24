@@ -1,0 +1,16 @@
+Conexion
+
+$conexion=mysqli_connect("127.0.0.1","root","");
+mysqli_select_db($conexion,"ejemplo");
+
+
+● Preparar la orden SQL
+$consulta= "SELECT*FROM alumno";
+
+
+● Ejecutar la orden y obtener datos
+$datos= mysqli_query ($conexion, $consulta);
+
+
+● Ir Imprimiendo las filas resultantes
+$fila =mysqli_fetch_array($datos)
